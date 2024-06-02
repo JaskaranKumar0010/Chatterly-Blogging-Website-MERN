@@ -4,9 +4,12 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "install server": "cd Backend && npm install",
-        "start server": "cd Backend && nodemon index.js",
-        "install client": "cd Frontend && npm install",
-        "start client": "cd Frontend && npm react-scripts start"
+      "install server": "cd Backend && npm install",
+      "start server": "cd Backend && npm start",
+      "install client": "cd Frontend && npm install",
+      "build client": "cd Frontend && npm run build",
+      "start client": "cd Frontend && npm start",
+      "start": "npm run install server && npm run install client && npm run build client && npm run start server"
     }
-}
+  }
+  
