@@ -176,7 +176,7 @@ const BlogCards = () => {
 
                                         <div className="Link" onClick={() => handleCardClick(blog._id)} >
                                             <div className="card-image">
-                                                <img src={`http://localhost:5000/${blog.image}`} alt="Card Image" />
+                                                <img src={`https://chatterly-server.onrender.com/${blog.image}`} alt="Card Image" />
                                             </div>
                                             <div className="card-body">
                                                 <h5 className="card-text">

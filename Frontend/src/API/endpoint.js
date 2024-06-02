@@ -2,7 +2,9 @@ import axios from "axios";
 
 const token = localStorage.getItem("token");
 
-const BASE_URL = "http://localhost:5000";
+// const BASE_URL = "http://localhost:5000";
+const BASE_URL = "https://chatterly-server.onrender.com";
+
 
 const API = axios.create({
   baseURL: BASE_URL,

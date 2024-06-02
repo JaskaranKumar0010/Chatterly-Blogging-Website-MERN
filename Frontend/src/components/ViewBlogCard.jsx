@@ -235,12 +235,12 @@ const ViewBlogCard = ({ userid }) => {
                         </div>
                         <div className="blog-image">
                             <div className="blog-pic">
-                                <img src={`http://localhost:5000/${blog.image}`} alt="Blog" />
+                                <img src={`https://chatterly-server.onrender.com/${blog.image}`} alt="Blog" />
                             </div>
 
                             <div className="owner-details" style={{ height: "90px" }}>
                                 <div className="owner-dp">
-                                    <img src={owner && owner.profilephoto && `http://localhost:5000/${owner.profilephoto}`} alt="" />
+                                    <img src={owner && owner.profilephoto && `https://chatterly-server.onrender.com/${owner.profilephoto}`} alt="" />
                                 </div>
                                 <div className="owner-name">
                                     <p style={{ margin: 0 }}>{owner && owner.userName ? owner.userName : "Loading..."}</p>
@@ -300,16 +300,10 @@ const ViewBlogCard = ({ userid }) => {
                                             }`}
                                         key={c._id}
                                     >
-                                        {/* <div className="profile-pic">
-                                            {commentOwners.data && commentOwners.data.find(owner => owner._id === c.owner) ? (
-                                                <img className="dp-img" src={`http://localhost:5000/${commentOwners.data.find(owner => owner._id === c.owner).profilephoto}`} alt="Profile" />
-                                            ) : (
-                                                <img className="dp-img" src={dp} alt="Profile" />
-                                            )}
-                                        </div> */}
+                                        
                                         <div className="profile-pic">
                                             {commentOwners.data && commentOwners.data.find(owner => owner._id === c.owner) ? (
-                                                <img className="dp-img" src={`http://localhost:5000/${commentOwners.data.find(owner => owner._id === c.owner).profilephoto}`} alt="Profile" />
+                                                <img className="dp-img" src={`https://chatterly-server.onrender.com/${commentOwners.data.find(owner => owner._id === c.owner).profilephoto}`} alt="Profile" />
                                             ) : (
                                                 <img className="dp-img" src={dp} alt="Profile" />
                                             )}

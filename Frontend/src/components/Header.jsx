@@ -89,7 +89,7 @@ const Header = ({ id }) => {
           {token ? (
             <div className="upper-section-right">
               <div className="profile">
-                <img className="profile-img" src={`http://localhost:5000/${profiledata.profilephoto || dp}`} alt="" />
+                <img className="profile-img" src={`https://chatterly-server.onrender.com/${profiledata.profilephoto || dp}`} alt="" />
               </div>
               <div className="name" onClick={toggleMenu}>
                 {profiledata.userName}

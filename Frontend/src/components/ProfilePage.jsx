@@ -103,7 +103,7 @@ const ProfilePage = ({ id }) => {
 
             <div className="profile-content">
                 <div className="profile-image">
-                    <img src={`http://localhost:5000/${profiledata.profilephoto}`} alt="Profile" />
+                    <img src={`https://chatterly-server.onrender.com/${profiledata.profilephoto}`} alt="Profile" />
                     {!showList &&
                         <div className="create-blog-button-container">
                             <button

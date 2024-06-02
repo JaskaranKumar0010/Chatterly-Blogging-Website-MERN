@@ -6,9 +6,8 @@
     "scripts": {
       "install-server": "cd Backend && npm install",
       "start-server": "cd Backend && npm run start",
-      "install client": "cd Frontend && npm install",
-      "build client": "cd Frontend && npm run build",
-      "start client": "cd Frontend && npm start"
+      "install-client": "cd Frontend && npm install",
+      "start-client": "cd Frontend && npm start"
     }
   }
   
