@@ -1,0 +1,86 @@
+
+.profile-section {
+    height: 100vh;
+    padding: 0px 0px 30px;
+    background-color: #f7f7f7;
+}
+
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #F5F8FF;
+}
+
+.profile-header h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.profile-content {
+    display: flex;
+    position: relative;
+    justify-content:space-evenly;
+    width: 100%;
+    min-height: 450px;
+    /* max-height: auto; */
+    padding: 20px 10px;
+    border-bottom:  1px dashed gray;
+    box-shadow: rgb(206, 223, 238) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset ;
+}
+
+.profile-image{
+    width: 260px;
+    height: 260px;
+    margin-top: 20px;
+}
+
+.profile-image img {
+    width: 260px;
+    height: 260px;
+    border: 5px solid #fff;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 4px;
+}
+
+.profile-details {
+    height: 100%;
+    width: 40%;
+    padding: 20px 40px 0px;
+}
+
+.profile-detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.editingenabledlabel{
+    margin: 0px;
+}
+
+.profile-details input {
+    width: fit-content;
+    padding: 5px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.profile-details p {
+    font-size: 24px;
+    width: fit-content;
+    color: black !important;
+    margin: 0px 0 15px; /* Adjust margin for paragraphs */
+}
+
+.editing-btns{
+    display: flex;
+}
+
+
+

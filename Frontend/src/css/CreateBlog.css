@@ -1,0 +1,43 @@
+.form textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form textarea:focus {
+  outline: none;
+}
+
+.file-input-wrapper {
+  position: relative;
+  width: 80%;
+  height: 40px;
+  margin: 15px auto 5px;
+  border: 1px solid #ccc;
+  background-color: #2596be;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.file-input-wrapper input[type="file"] {
+  display: none;
+}
+
+.file-input-wrapper label {
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+}
+
+.delete-icon {
+  cursor: pointer;
+}

@@ -1,0 +1,57 @@
+.page-footer{
+    display: flex ;
+    flex-wrap:wrap ;
+    margin: 0px 150px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+  }
+  
+  .pf-1{
+    width: 350px;
+    padding: 10px 0px;
+  }
+  
+  .pf-2{
+    width: 200px;
+    padding-top: 10px;
+  }
+  .pf-2 ul li{
+    font-size: 14px;
+    list-style: none;
+    margin:0px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .pf-3{
+    width: 200px;
+    padding: 10px 0px;
+  }
+  .pf-4{
+    width: 200px;
+    padding: 10px 0px;
+  }
+  
+  .pf-1 p{
+    font-size: 14px; 
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  
+  .pf-2 p{
+    font-size: 15px; 
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+  
+  .pf-3 p{
+    font-size: 13px; 
+    margin-top: 5px;
+    margin-bottom: 0px;
+  }
+  
+  .page-end{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 150px;
+  }

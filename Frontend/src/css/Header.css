@@ -1,0 +1,84 @@
+.header {
+    height: fit-content;
+}
+
+.upper-section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 60px;
+    padding: 3px 150px;
+}
+
+.upper-section .logo {
+    position: absolute;
+}
+
+.upper-section-left {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+
+.upper-section-left:hover{
+    cursor: pointer;
+}
+
+.upper-section-right {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    inset: 0;
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 180px;
+    border: 1px solid black;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.user-menu {
+    position: absolute;
+    top: 100%;
+    width: auto;
+    left: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 1;
+}
+
+.user-menu ul {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.user-menu ul li {
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.user-menu ul li:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

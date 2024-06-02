@@ -1,0 +1,12 @@
+{
+    "name": "Blogging Website Project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "install server": "cd Backend && npm install",
+        "start server": "cd Backend && node index.js",
+        "install client": "react-scripts test",
+        "start client": "react-scripts eject"
+    }
+}
