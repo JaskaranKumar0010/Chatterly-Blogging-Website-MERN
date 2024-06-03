@@ -190,7 +190,7 @@ const BlogCards = () => {
 
                                         <div className="card-footer">
                                             <div className="cf-dp">
-                                                <img src={profile.profilephoto ? `http://localhost:5000/${profile.profilephoto}` : dp} alt="" />
+                                                <img src={profile.profilephoto ? `https://chatterly-server.onrender.com/${profile.profilephoto}` : dp} alt="" />
                                             </div>
                                             <div className="cf-name">
                                                 <p style={{ margin: 0 }}>{profile.userName || "Loading..."}</p>
